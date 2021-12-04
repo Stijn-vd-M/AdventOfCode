@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Day3
+namespace Common
 {
 	public static class ListExtensions
 	{
@@ -23,7 +23,7 @@ namespace Day3
 			}
 		}
 
-		public static IList<T> Copy<T>(this IList<T> list) where T : struct
+		public static IList<T> Copy<T>(this IList<T> list)
 		{
 			if (list == null)
 			{
@@ -31,10 +31,18 @@ namespace Day3
 			}
 
 			var result = new List<T>();
+			var isCanCopy = typeof(T).IsAssignableTo(typeof(ICanCopy));
 
-			foreach(var item in list)
+			foreach (var item in list)
 			{
-				result.Add(item);
+				if (isCanCopy)
+				{
+					result.Add((T)((ICanCopy)item).Copy());
+				}
+				else
+				{
+					result.Add(item);
+				}
 			}
 
 			return result;
