@@ -1,10 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Common
 {
 	public static class ListExtensions
 	{
+		public static void AddRange<T>(this IList<T> list, IList<T> items)
+		{
+			AddRange(list, items.ToArray());
+		}
+
 		public static void AddRange<T>(this IList<T> list, params T[] items)
 		{
 			if (list == null)
