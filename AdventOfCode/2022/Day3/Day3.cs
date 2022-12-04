@@ -1,0 +1,96 @@
+namespace Day3
+{
+	public class Day3
+	{
+		private const string Text = "FzQrhQpJtJMFzlpplrTWjTnTTrjVsVvvTnTs-mScqSqqgcfPCqGPZcfGNSvTNsVVNSjNvWSNsNz-fPcPGqgCcHgFzQpJJtHtJH-DZDqqlrjplDHrNCmnBcHBMCRcJzb-RQFLStFvdcBbzdJbJM-PThQtwftTPFvtTPhvtFtfFtpZZllwjRNlsqNqqZjwpGlrZ-pPwtqgwJZPJLgQqSFlqhFFlqMd-DBmCWBBDWTRGvcVRTCCnnfQlFSdlzfhfdMWQfjhhQz-drmBVVCRgprPtrZp-HznjQjvmzDMVrQnMLJMMlfWgPSlJGWWJPl-BdcqqhcdBRpFhhZBthhctdJSJJWfgGFlJCSFgbWPCDJS-NdRTZdNqBwqtthpRBTTRqdtZrsLQVzrrzjzDwDsnmrQrnsrr-HZFZCFzZWszqsRTBZTNMhmthVTmhDppmMQVPpm-wjvSbJddvrvlrvnJSJJvlJmhPlhVPVtGVpQDBVMpphQP-frbrfrcvvnvjfwbcJgrrCBRsCFsNzRgRCHCqssRH-dDFNqNqZqPLNqvqTTvCLSPdZssGHClJQJcRHJGHHcHBcsMsQ-lrjmWgWWrhjgrppQHHMQrsQRJGcBJc-lVlmnwjmdTTSvVFN-FWNFHvQPmLGwwwSHtswwln-RfMJcDdfdcfdddfZjdchrtZmSmCZVtqVnZmrnrtC-JMmJcfjjphcghpgjhRGzGzBBGPFGNBvPTpFL-cVPVwStmmcQPBQPpSCppwhHZNNqHszNBhsNRNjqHzj-MfWdDgvdbnvgMTWgvgZfzmsZJHzNhqjqjRhJ-MDWMWGndMgFDnFLDwQrPPCSrCSVrlmGS-QLZmPdRdWmMsMDWZmsLWWrhMHcHGzHvGzFcvrvzNrc-tplSbLVBlvHHcFNnSr-VqfgwLlCJWmWQTfW-nRWvlvRbtLvdMCPFGL-wrfsJNNGhNzGrTgDMDLgPMLPfq-wcVhJQhwhrrBpmVblBRGSG-HHHcggrZLcQQcQll-GzfzTRTzmmFMwSNSwdSJQtNLNB-TGbmLMFTzVVVTMzmFMfFPMHPZhnjZCpHnhgnZnPWCPZZ-MRwwpVMHRspqVqwmccDlDrcHBBZgBl-jQfQQQjWWFBgmcgDfcZg-hvvSQzSnQQSWWQWSjTZVTRMshwVCssppwV-pvrTvCvtFppCHMMZcdDFdcZM-wLjTQnqljjSnlwjqjRgLcHHHMBDMZhBMHgHcbBDh-mqjqlSNqRqwSRrWCvzGmtfTfzs-TWScDCqCQQVBWDqWHsHswwBgRJzRhhHp-dPttGrvFfGjMjnjvshsJgsJLgghRgH-rFMlGdtjPffNnnrffSNcVCDqQqCQRqQRRN-GmBRbVpPbmJcwggBBgWW-LjsTCNNtddjHqLLgWwccqgfq-nsjNjntNtjHCsDwZmwZZVmmGSvSD-bwDDgNFtMMDbFsMbFwWWVcRcSpcgjgQWhWSp-lfTJJlvdfCffccWppRjRlcSc-RnzGdJJmsMNnMFtM-bsBTFsqqTTmFZTsQBWWznWCRshlJNJlCVh-GjGnDvDjvjPppHwwpwgrPPClJhNVRCzhhzJWlWlhNlvJ-ffdgLrgdLrDjdfHPbbZbttcBbcbLmntn-TNTwwvTTHNtTHNLLVqtqTSZBJnrnhhbrFJjZjnVZgghF-cplWfRlzcWfRCZZhFrGjBfjZjn-pddzDsRpDcclzCQMWBvNSmTTSqdvPPvqwqtT-DQTttwwLtQtVSDMJDRmmSS-ffsWfvrBWrPvwJhPhPSMPMVn-WsvsggFvwNLgHtNQ-llBbVDMTlFVdFDTbVggSVsqZqZZZqqvNJZJRNRWgtv-HhpjcHHvjPsqCsWcNcsq-GfpvnPvwFDTTFFDw-GMmFGMGFFgVwQHQwwM-cJtZNtZTbThcZtcZJJtTZWJPllgNgpPvVgpjHvQpRpHQNg-hWcJZcnhcJznbcBZLqSLDfCmHqnqCLsD-zQpjLpnhnsHTnlQLrMCCHPFrvvCMPcHm-ZfgdSBtNqBwlgSDfZDwtqSFvJCvrPrVvFmwCJFvrmmFV-dfbRNZBqDtgRNBNNNljLLjhGRGGWGLGTRhjz-hhrnfBzhtzZgDgDnBfrfDZsRpMNCNNWjwCCfGQGGNGCGQC-lcdPmHLSPDSdFDpQMLjCQQQCRGpN-lJSSbmPdVdVvdHbvSDFHHPlZqgBnttzgTsssTrqgbZbsTT-FsdsShrgggLDdbSDsgrGrlWHTpfRpTjjfFTzRTRjBWWp-mPvqCmJCqJNnPvPNPCvvLTTVjHjzNWHHTWRBRVTWVz-wJLvqPZmJtccncvZmJqqrghDGQwbdSGdsgGgQgQr-zFwtNJGtNFlpnwHccZjZbcpprsmc-PWQfBWhBgQgTWQRLThBqMSVDSbbDRsVDmsmZsSZDjr-fvQfWBfLqfTqhLhCvNFttJlCwGrrCC-fNrGLNrfNrGjllRRRPmWVL-tbJdcFbSSssZSmmpFcsSbwDWVWBlllVPDnnjBFjDRnBF-ZZJcvZctgNmmvMGhQm-HhhjFRhgrcRTFLvWVJVQWJVHDHQJPP-GwCmwBfGzfSCzCfwtmtzzJVWSVJJZrbWQQQqJJDZVJ-mtfzpGdststtBmfmCwrGRFcTcvjngjFnRcLnpLLn-rrwjdwLgVmVwHrfPCJPQBCBGmPtt-ccNZqbNnMMblNpTlNpnhhBPSJsQhJtJtChPJqS-vTWvNcWNWTFvnnvcgjzDLVQLgHVwWDrW-jNPgbNHbfLJgLzfz-ShvhhFVVDShFVqMSSSvZfffvPLtBBBBJJlpfLJJv-DqhnShhMnZZwCSDCMhChrRnNrNdNQbHNNPmjmdHN-VQVZGQFnzFTSsBfgzgfs-rjlpjtDrtMLZPMtPtpPZPwCsgSHgMHCCmCTWsgBWSBmg-pjvDqLwrlDtwqtqNLvtjpPPwRNbQRncQVQddZhRhJQbJncbG-PsBSqnSdQsFhmmmnppFc-TRhNvrTCvNTHVcfHbJVTpc-rhtWvGWLrjRqdSqqLLqdld-vPhfqPJvrMrnffDDhvpMjdzGMLdLLQpllLGQ-mbmcFSScGbSCcQlzwQQlclsg-BSGVCmCTZWCGGvnvfZHqqrDhHN-GSRfrzGRhzsGChjTBBlqBgjgCTCn-wHQwtDVDHwHHDJcDWJZwzHZBqTnnBFlvjFgBqnljjvBdBZ-JNmVJpVmNtDHJWHrbfPLhbGhrzRbpr-WcWcbzNPbDwBNvWBwRMPQmJZQRQZftRZGP-LhVHFgggTHCFHhfMQQSMMGQRMLLM-qnrqppFVHphqfDsNbzjrzbrN-cwgDrdLSrBrvvhDzCljjTW-VHtVZpspQtMQsVRQppFVQVHtCdPTPTzdjvhTzTTPRvjjvWhn-QQZpMdJsQFJHtMHdScwLwLJGrSScSwqw-ZsjNflGfRfRPrZNRFcffLwJdwcLdDBnwzzzDznVn-CTGvhhTqbtbgTqLJWdDntzWWdnLw-phCMgmQGvvHCvMhbTQQFsNsNFPZSfZjffmNsll-CNpCJHLNhhSSHZPgrFlFFWgpFpmzjj-qQttDVDwQGdQGvqDQfwbcVrrlljjzzmzrVJgrr-nvMDsqqqQvfvsqDnRSZHJPPZHhLHLS-RNNrrPfDNRQwQhjscghMqs-WVZlHvnZqtlLVLvwjwhsggTstMhwTw-vGHWLJlVWlmLVqRCGCFFNfqqGf-MNzqCnvqvqvCVLBvvCVCpVcRssncrPSTWGrPSPdGTcrP-hmHwFmQjFlhtZmHwtZjjddSSGcsdPrrGcQQQRGPW-fHbbFjlhZwmtwhfjmmwmmLbpLqzqvBzLzCvLNRMbNB-tQfLrtQPrrfDSSCVlDfLSrmbBjGvWjjLmWWWpWNNppmv-wdHhRTTndnRThdvnBFGpNBMnpvvp-JdqTHTHHRdqzsJRRzTRHscJdDSGCfDlqQZqlfZrZZCffqSSQ-hQMWLsgGJMMhsCHggQWhgspDWFPzZvPvptDvzvmtdtdF-BrBlrTBrNRbfnjNQlZDztPvpmpppmzvfdd-jQlQlqQVbVcsMgMgChhJVs-MtFMCTWRFRRtCRTTRTMGJddjLdstHvBzBHzHVVpL-lZSDnbDlnZPrbHpzJJsdSVJpBL-nNghhPrlZlgDTFhCfMFJRMQF-RGpPFZPRQZPFRGvpPQPpjvpmhnnCMjhmhgBgVgMVWBVgVM-wLtfNdNHmrNthCBgCbhnngWd-srSfwHfszsNmtswlrqQDGQFDRPJGDvzRppRJ-GVFFGvVWZLFsmssFRNfVvmGGJPpJTTqDBvTpqlpDvqbBtTPl-gQhzzChzrMQhjpzlzWzJpPpBJb-ghgWjcCjMgCHWdQMhdjChCmfwmRRGZZGVHLZHRfmNwVs-DnDVhdnrfSfpcGGjQQGdJddJ-bPWPRbRsRMsHNzDqTZcGBcqZqmmN-HvwPvvzMPwDCChDVwS-vTCCvTfWFDTtRPMvfWFlDFHBqGLpLzbwBgWwqzGqbBbB-cQcSNchSJSZShVJNnZrhSqBpgwGHHtGwqtbwLbqpbr-JNnJVsJscNstNhQsjnVVNlFfMmTMFfCTfjFvfPRPPF-VLFBsgffNFNqRvbz-ChltjTdjDhHpHZvdpjjZhwCpbNrbSzzbrNGMTMMNSMbWWNSN-vQjpttQhHnLsBQVLsQ-mbzQgTzRVVbsVdQgzzVRddmztFGWNGNNWnGtFSGBsrCNWCrC-jfJjvPPwLDcHDPvDDPDppLCWCFBGWntCBnrtFcrFWTGn-wpJPLjvpTTDpwhfgzmVMbqhdhVRgzl-PlcqbWClLmnqZVLq-THwdrrhddhhfJJhwLJhpQnDVnznnmZQQnSpfpD-vrFdvGsGHhhhwHjFGrFGJHdMCCcNgbWMPccRRccMFLNPPP-tbppJqcNtJnZzRJbPFsFPHfZrrshFDjj-GdwgwlLgGCndsDFrhDHHFF-SSlLnmmvqWNqmcqb-ZPFPPTZpZSWzCMMSzPBsFvhtlQvJQQtJhsVs-dmNbmgbrwDNmbcDgwNdcwdLsnhlJlnvtsBJnhVQqqnstLB-bNGfDGgHHVwbwNwVfgmRMzCzzCSHjSRZSZCTRS-dDTffQdqQQLBLnVLLQvL-rrBHZZcgJcrLvNLtLgRLbN-cjjJhrFlhZwFFzwJzmTBBdmTsDPzDsBP-ClGrJJMNCrGQqlcPvWgnDP-ZBvbjHpSwBVVVcWjjjqQ-BLSbbwsHSTBHwmLHHLbBsSTFdrfvCrtmdzfGJzrdzGJddGfh-gljWRwmSjtJWjJtJjgjSZfVSTVVHGZSVHcVchZ-pBzLFQpPsFBGcGBTThfB-pFpQzFLPLpvQFQnLbsqqGddgjbmwRldwtWmlGWwj-PDQDMFQBMfWPvjdLLndLjrmsMj-qZqVzTRRqHtvZGGtVqTTzVjLLsrmJCddnLjrjHsrhdCr-GzwcZtqNzqvNqwzZVGRwSzbpWfFbWPlWFpNDBfQfFNNf-dfRszdzVdsjwdhLwCCqwGllHvPGPwG-SpJtBLFgcGqHQClqZF-JrttrtcTmSSLrmtBTrNgnBJjbNhhbhzRdsVdMhNjhMMhVd-MPFSCfSMqVSBGrtzlvccfQctzbzl-hZNjTHWWTZwshbLvmlWpBzmbmm-dRTTJNDNhjsJqBBMMgrJPVVr-WnVzDMjlDVWwwHgwhmgNhNNsJh-qfvrLNCcbLdvpcvbrPPqCsGhSJGTTBspTshBpTBBms-ZLvvZfrPfPCLbCFFzjVQzRnNNMVzDQ-nllbFTTpTFTBcnCjQPqQdZRQZhCb-tvWszrrztvSmzQQvrDmZRjjjPPDVqPRdZRdCPd-gfzvSsftgQHQHgQl-GVbHRRGRLpdmGWTm-gSPPltPlrlvccFccPlcJNCTpnnmpMCLMMmWfdRmMSS-FzNJRhhvPFRvQwzqjqzBHZZj-PhZSpFBPBFsNmjBVllltBj-JMGLnrrnbfffrdqRqPHnnqLDVTDDjgmRgwtmjDljlDVlwl-LHMqPqPnnqGLWJPMnndrGfSWppzvvFSChFFFvvzQSQZz-RSWWssbvnnCqZnWsRCnssWrTggNhgbNHBgQjhhQBgjNT-mcpzcppzczcDGVcPcDLLGLjmrMNTNtQNHhMHrQBQNTgN-LVpPfcjjWvsFFnFf-MpddpdCpJdJlbdMvBHMnnsHqSRvG-PWvZfFmZrrfmwWwFznBnqRRSGcsBVmVBRG-zjzzhQPQvzjLPQzwffrwrtlTCDtJDlgJLltpTTJlTl-TvTWjjzpznGttFFZccrrPrSZllcB-gNNSqHMqsMHQJHNZCDDCZDqLZdlZBD-SMQNSRNbRRHwhwhsRmtnvWVmmnbGnjmpGn-ccSVQjCQddTsFJcH-gLppBfgfmvCRFdsddTJJgb-WMLMmWGGBZWZLCtvDhlSSDGlwhSPSzSP-TpqVGVHFQGmqSqPZdccNCzzhdwCjNG-fffbbvftMrBMDDcCccCZCjlvhCCd-RLWMnbftDhnMRtfBftRJMtLMgFgHmmpmPmSmmQFPPLHHVTQS-nRvwQSDNcpVJJcJR-qZMjBhjhZMMBzLBGLGrjJbTPVTpbdPPdVbVb-ZZpmFFZlfGqfmmGMzlfmMmnWQDtHtSvnWWNSHSSstFtS-bFDGZjGDbbRSgLtN-CphJVfJWCTBgvfLHNRcwnt-WVhPWBTzzChzhhhBmrpPPCJZDQtdMlrjFQdrFqsjdrQsFG-ZBpVQHHVMMWWdmmLWw-lQhhrjcRttrqbvQLNwdDWzmNSDmStz-QbGqhcbvcsqvCCHnsCZHCnTn-tlWtQTTTJjTQtVnmrbnPWVShVC-MDMGGzsHcwFgGZBqrmmPSnbqVmNVGC-sZFPwHcMZDBRTlvQQJttTQTR-FhVRfGptMGMnZhRFBNRBCCNHHNvTNTRC-zmwrLLSjrbzmNlcvvrHvDPCN-JLwjQdSbjdbSdqJQFGVqFVMgnGHMfGVV-fffZWrJqZSHWTWHqSvrgDhggzRjttsDhpDgs-PGlBLcBBbnnbLLFbGLBjRgjFTFVzshtzpgsppz-TGCPnMPQlGnPmclPlnnQmbmHJvNvfHdqwddwvvZfCNHCfW-ClLwpspTPrTFZCdzFbZdbQ-RRMWfRgWVRMRQBZZScVczVGFbjNb-MfnvMqWmslvDhQPw-hdndSdqsTddBhdcmmNHFDcqHttPF-JjMzzMZQGwZGZJzMzZJQzGJFvPvNPtFmvmNmDvcFtvDHMv-gZwzQwJfGVJQJbGLBsSTSTdTbCWDBSnd-ZZCHZRzMZGRMhMMVVFNThrdd-SgsccSPmmgqssSlqsgcmscSqlhpFdVThjphNrdrhjdwdhFJN-vmttqTcqvLqqmPccmqSBbRWnWzQZZZZBHnQCzHDH-GgPnGdSPBpGsLTBL-rVNJjmwZqtZZshltFTtvRFsL-mqmWrZVqWjrqZMNwPMQQbsddgdsbsgPz-LZLVvjZrggHLJggSZDgrnPnQnRnppVRllntRdPFz-chMCzbqGmhNhhbBCMBdFnpfqFnltRRQnlPpQ-TChmWcMMTmBswJzZZrWrvzgg-gngRNBNRBsNFFBgfgbLLLnqdSLvLTcbLbd-GWtlChlVMllcZSDWSLbdZL-lljjGlhMGrGJpsFdRJfsfzfz-jVTdrnGQcQtTTTFQqBqsgHHFgsqf-ZZLbPLzDzPZCmsgqsBHt-wDzDlPblRDPLPvhvwtdnnhdrnrMGWMVGMThj-spjjpjvjpjmQjrpCMfSlfzrPBl-dHFntHWnnbRVFtnbcqHFzBCCCPzfPMlcCSlgllzc-RLbVWHnnSWtnHFbdbVRdNNtQsjsQTjDLwmGTmTssQwmLGJ-JbJJSLMhRMSLhNqqwFDwFNcFqL-GcpnGnznnpzpzGpffNTNTwTfwdDNNdTFdD-nllnlPGWQWHcGpzzQGGzGvHGJbVVtJSChQVbmtmVJrmrmbRm-GFsFrzwrflmtdtbltG-ggLPDngCJncNLJRDwgnllmJqjWMjhjhjWWmWjj-nBNRNPgpRgDLTgNwfsSHVBQHVHwsZr-WwvnvWvcFtwtSFSF-zBZZZRQSzMBSgSVJGjGTPTGFzCzmmj-fZDrpZZfRfMgSQDDBhgQghDHsnbrcNlWnnLWHLrHsWnllc-ZVncdPPwVPdhZngnqHWHNNvTHvlMvn-fSLjjLSGGBjTTHqvBqrMNT-RSSSDGRtSGZthTTctmtg-rtzrfJbgJHRfGRZLPR-hdVhlllmFlFPLwHmsRGGZP-nTWhRjTBTWlvNQgnJSSbrJtz-JgVTpBpfvgpTDDJFJvTgggtlFlNNMRLNNzNNZRNHMRCLlF-wbPWcSGbGqWDlnNWMMMCLMWZ-wrsGcbrcbcqwDwbcmGvQBQgTTsdVJgJsVdQf-mztrhgJtDrhgcrZmnhbnzbhcMTMPlBCPBGVGTMVGslCCPGDs-FLRQmjjFSQpQwLlPsMsCpvslvPCB-fNLLwSdSwWSWjwmrtczZhhrJzdzh-HHwCwJFmHZttZCfCSffSMHcVDMcPBRPcPRDhPghM-nvQLsTnLslnLvpzGTssnsRPDMhPgVPVgtcVMRPgVQQ-vnsTGWlTLsWTLLvNsGWlsZrwmZCJddjFmtJJNZFftj-hbjSTvSJTfcSwcPSPfTbfHszVVFpGnpJpsHFnHVVls-rtZrcQrRZZQrmZBQlCGppnppHzpVFCGR-WmLqmgNtcLNQWTbPvfPwbbdb-HzZgsdHglHlzdHsFtsNNJSlNcSpjcjlrrNVv-wqqWRPPqwmbcqPjQVvSPJJrVpv-qqBBqmWRhqRLqcBnhzzztgnTdDHnHsFsHn-rJPFVwwsrJwmdVrLWJvvRBWBvbzWlb-nDZcNGNpjTpHncvpZCDnTNZGhlWzQhWbpRRQlQhpWWSWLlQb-CDNntnCCHnvmqPfwtFdVqd-gqBwgBjCswwgqNBNCVDDTVdhlSDTDcZc-HvRRFMzRRRRMpHrtTllfhZHHSShHTf-PmlGLPrppMrrmFFmLMWRjbsjnsjwQNJWnbQjWgBN-pDggpFgRghZjBFPPnPPFrt-cwTfLwBVwCWbLcVTVVvrdndGjMHrnGJtnttdMC-NTVcWNvcBSpgNqspRQlN-DLDgFlDmNZfjfnJZSF-tctvttzvGGzvrHqtVVdwnJGSSnnjjZdWTdwW-zvpcrbpHpqJJsPbPlLlhmhglPQ-pvHHvssFCFZQNCftttdQdd-VgTGTTVGgLjDjlLGzgPVMTNwmcwQmMQfQtmdcmwMJwNm-TPjTDjfGWTLLljgzrWpZZbsqrFqhqbps-ppVLcfcwSLgpSLVLgWwtfshDNDqvWvGvlQZvDNHQHjqq-MPrzmdRrPPrCJFnMnMRRFRPdqqZQNQvjvZDGDlHhQvGNDG-BmBMBBJTMmPBJMMFCCFJRmrsTlVpVbpwLSVwLsgcwTVlVc-SSGzmFRzmRGLgSSmGMJFnvfvJnJVnJQnMl-cBpjHtjwNfcpNZtppHtCMlMPMlJBVlVQlvJPvJ-dNtNZwqWfqtqZWtHttsqHqrRrrdRTLbmmzSLmTGGmbrg-RrrddnrgnRbbgWdGrfnwgQwjDjDpvTpBQTwBPP-MHCStZJzSwvPjWQD-mcJWVHCCLcGLbdcn-PlMsdjPdGMjdPSrSjgddbLbmHHTszHZzpHmsTFvmpzZzmN-ntRJQVRfcQhcQWhnchBJWntTFTTTNTSpFtztmZFDTpDZ-hQfcfCBSwCccVJhSJnrPPGLqPlbPLCrqldgb-vgvWDMZvGpcqgqsP-tSdtjLHLQLHjdFdDddQSQhwlsGqwQlqqqhQsPhGc-tbRjtTLFRvTZDBrMrV";
+
+		private const char LineBreak = '-';
+
+		[Fact]
+		public void Test1()
+		{
+			var splits = Text.Split(LineBreak);
+			var totalPrio = 0;
+
+			foreach(var container in splits)
+			{
+				totalPrio += GetPriority(GetDupe(container));
+			}
+
+
+			var dupes = new List<char>();
+
+			foreach (var container in splits)
+			{
+				dupes.Add(GetDupe(container));
+			}
+
+			var result = totalPrio;
+		}
+
+		[Fact]
+		public void Test2()
+		{
+			var splits = Text.Split(LineBreak);
+
+			var totalPrio = 0;
+
+			for (var i = 0; i < splits.Length; i += 3)
+			{
+				totalPrio += GetPriority(GetBadge(splits[i], splits[i + 1], splits[i + 2]));
+			}
+
+			var result = totalPrio;
+		}
+
+		private char GetBadge(string a, string b, string c)
+		{
+			for (var i = 0; i < a.Length; i ++)
+			{
+				for (var j = 0; j < b.Length; j ++)
+				{
+					for (var n = 0; n < c.Length; n ++)
+					{
+						if (a[i] == b[j] && a[i] == c[n])
+						{
+							return a[i];
+						}
+					}
+				}
+			}
+
+			throw new Exception();
+		}
+
+		private char GetDupe(string container)
+		{
+			var l = container.Length;
+
+			var left = container.Take(new Range(0, l / 2)).ToArray();
+			var right = container.Take(new Range(l / 2, l)).ToArray();
+
+			for (var i = 0; i < left.Length; i++)
+			{
+				for (var j = 0; j < right.Length; j++)
+				{
+					if (left[i] == right[j])
+					{
+						return left[i];
+					}
+				}
+			}
+
+			throw new Exception();
+		}
+
+		private int GetPriority(char c)
+		{
+			const int lower = ((int)'a') - 1;
+			const int upper = ((int)'A') -1;
+
+			return c == (c.ToString().ToUpper()[0])
+				? (((int)c) - upper) + 26
+				: ((int)c) - lower;
+		}
+	}
+}
