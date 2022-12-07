@@ -1,6 +1,6 @@
-﻿namespace Day5
+﻿namespace Common
 {
-	internal static class ListExtensions
+	public static class ListExtensions
 	{
 		public static T RemoveLast<T>(this IList<T> list) => list.RemoveLast(1)[0];
 

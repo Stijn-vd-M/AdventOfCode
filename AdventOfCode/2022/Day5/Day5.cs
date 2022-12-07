@@ -1,4 +1,4 @@
-using System.Security.Cryptography.X509Certificates;
+using Common;
 using System.Text.RegularExpressions;
 
 namespace Day5
